@@ -2,7 +2,6 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 # golang
 export GOPATH=$HOME/golang
-export PATH=$PATH:$GOPATH/bin
 export CDPATH=$GOPATH/src
 
 # Path to your oh-my-zsh installation.
