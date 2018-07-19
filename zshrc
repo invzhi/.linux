@@ -1,5 +1,4 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$PATH
 # golang
 export GOPATH=$HOME/golang
 export CDPATH=$GOPATH/src
