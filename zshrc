@@ -1,8 +1,3 @@
-export PATH=$HOME/bin:$PATH
-# golang
-export GOPATH=$HOME/golang
-export CDPATH=$GOPATH/src
-
 # Path to your oh-my-zsh installation.
 export ZSH=/home/invzhi/.oh-my-zsh
 
