@@ -1,0 +1,11 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Remove
+Target = *
+
+[Action]
+Description = Update pkglist...
+Depends = coreutils
+When = PostTransaction
+Exec = /bin/sh -c "/usr/bin/pacman -Qqe > /etc/pacman.d/pkglist"
