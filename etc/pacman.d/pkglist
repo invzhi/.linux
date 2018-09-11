@@ -4,6 +4,7 @@ arc-gtk-theme
 autoconf
 automake
 bash
+bat
 binutils
 bison
 bluez
@@ -26,6 +27,7 @@ fcitx-configtool
 fcitx-gtk2
 fcitx-gtk3
 fcitx-libpinyin
+fd
 file
 filesystem
 findutils
@@ -69,6 +71,7 @@ man-db
 man-pages
 mdadm
 minikube
+ncdu
 neovim
 netctl
 noto-fonts
