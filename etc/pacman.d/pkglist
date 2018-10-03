@@ -42,7 +42,6 @@ gettext
 git
 glibc
 google-chrome
-gopass
 graphviz
 grep
 groff
@@ -60,6 +59,7 @@ iproute2
 iputils
 iw
 jfsutils
+lastpass-cli
 less
 libtool
 licenses
