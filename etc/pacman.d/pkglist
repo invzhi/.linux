@@ -59,7 +59,6 @@ iproute2
 iputils
 iw
 jfsutils
-lastpass-cli
 less
 libtool
 licenses
@@ -81,6 +80,7 @@ noto-fonts-emoji
 openssh
 pacman
 pacman-contrib
+pass
 patch
 pavucontrol
 pciutils
