@@ -114,6 +114,7 @@ systemd
 systemd-sysvcompat
 tar
 tcpdump
+telegram-desktop
 texinfo
 texlive-bin
 texlive-core
