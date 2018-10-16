@@ -23,11 +23,6 @@ e2fsprogs
 efibootmgr
 exo
 fakeroot
-fcitx
-fcitx-configtool
-fcitx-gtk2
-fcitx-gtk3
-fcitx-libpinyin
 fd
 file
 filesystem
@@ -53,6 +48,7 @@ gvfs
 gzip
 hdparm
 htop
+ibus-rime
 inetutils
 intel-ucode
 iotop
