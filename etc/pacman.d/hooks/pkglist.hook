@@ -5,7 +5,7 @@ Operation = Remove
 Target = *
 
 [Action]
-Description = Update pkglist...
+Description = Updating pkglist...
 Depends = coreutils
 When = PostTransaction
 Exec = /bin/sh -c "/usr/bin/pacman -Qqe > /etc/pacman.d/pkglist"
