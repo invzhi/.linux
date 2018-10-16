@@ -72,11 +72,6 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-autoload -Uz compinit
-compinit
-# Completion for kitty
-kitty +complete setup zsh | source /dev/stdin
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -85,5 +80,4 @@ kitty +complete setup zsh | source /dev/stdin
 # Example aliases
 alias py="python"
 alias vim="nvim"
-alias kdiff="kitty +kitten diff"
 #alias whoseport='lsof -i ":$1" | grep LISTEN'
