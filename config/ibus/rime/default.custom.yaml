@@ -2,6 +2,8 @@ patch:
   schema_list:
     - schema: luna_pinyin_simp
     - schema: luna_pinyin_fluency
+  "switcher/hotkeys":
+    - F4
   "menu/page_size": 10
   "key_binder/bindings":
       # move by word
