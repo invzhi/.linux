@@ -73,7 +73,6 @@ make
 man-db
 man-pages
 mdadm
-minikube
 ncdu
 neovim
 netctl
