@@ -45,12 +45,14 @@ graphviz
 grep
 groff
 grub
+gtest
 gtk-engine-murrine
 gtk-xfce-engine
 gvfs
 gzip
 hdparm
 htop
+hugo
 ibus-rime
 imagemagick
 inetutils
@@ -130,7 +132,7 @@ unrar
 unzip
 usbutils
 util-linux
-vi
+v2ray
 visual-studio-code-bin
 wget
 which
