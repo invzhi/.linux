@@ -40,6 +40,7 @@ gdb
 gettext
 git
 glibc
+gnuplot
 google-chrome
 graphviz
 grep
@@ -108,12 +109,12 @@ sed
 shadow
 shadowsocks-libev
 slock
-sublime-text
 sudo
 sysfsutils
 systemd
 systemd-sysvcompat
 tar
+tcl
 tcpdump
 telegram-desktop
 texinfo
