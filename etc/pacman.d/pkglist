@@ -64,6 +64,7 @@ iproute2
 iputils
 iw
 jfsutils
+lcov
 less
 libtool
 licenses
