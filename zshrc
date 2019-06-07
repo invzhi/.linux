@@ -80,4 +80,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias py="python"
 alias vim="nvim"
+alias svim="sudo nvim"
 #alias whoseport='lsof -i ":$1" | grep LISTEN'
