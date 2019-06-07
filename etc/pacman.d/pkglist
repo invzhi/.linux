@@ -95,6 +95,7 @@ pcmciautils
 perl
 pkgconf
 postgresql
+powertop
 procps-ng
 proxychains-ng
 psmisc
@@ -126,6 +127,7 @@ texlive-langchinese
 thunar
 thunar-archive-plugin
 thunar-volman
+tlp
 tmux
 traceroute
 tree
