@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# x
+ln -f ~/.xinitrc xinitrc
+ln -f ~/.xprofile xprofile
+
+# zsh
+ln -f ~/.zprofile zprofile
+
+# git
+ln -f ~/.gitconfig gitconfig
