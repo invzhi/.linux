@@ -1,0 +1,23 @@
+#!/bin/sh
+
+set -xe
+
+# x
+ln -f xinitrc ~/.xinitrc
+ln -f xprofile ~/.xprofile
+
+# zsh
+ln -f zprofile ~/.zprofile
+
+# git
+ln -f gitconfig ~/.gitconfig
+
+# ibus-rime
+ln -f config/rime.yaml ~/.config/ibus/rime/default.custom.yaml
+
+# neovim
+ln -f config/nvim.vim ~/.config/nvim/init.vim
+
+# pacman pkglist hook
+sudo ln -f etc/pacman/pkglist.hook /etc/pacman.d/hooks/pkglist.hook
+sudo ln -f /etc/pacman.d/pkglist etc/pacman/pkglist
