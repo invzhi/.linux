@@ -12,3 +12,6 @@ ln -f gitconfig ~/.gitconfig
 
 # ibus-rime
 ln -f config/rime.yaml ~/.config/ibus/rime/default.custom.yaml
+
+# neovim
+ln -f config/nvim.vim ~/.config/nvim/init.vim
