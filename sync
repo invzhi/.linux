@@ -1,11 +1,14 @@
 #!/bin/sh
 
 # x
-ln -f ~/.xinitrc xinitrc
-ln -f ~/.xprofile xprofile
+ln -f xinitrc ~/.xinitrc
+ln -f xprofile ~/.xprofile
 
 # zsh
-ln -f ~/.zprofile zprofile
+ln -f zprofile ~/.zprofile
 
 # git
-ln -f ~/.gitconfig gitconfig
+ln -f gitconfig ~/.gitconfig
+
+# ibus-rime
+ln -f config/rime.yaml ~/.config/ibus/rime/default.custom.yaml
