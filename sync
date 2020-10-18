@@ -5,6 +5,7 @@ set -xe
 # x
 ln -f xinitrc ~/.xinitrc
 ln -f xprofile ~/.xprofile
+ln -f Xresources ~/.Xresources
 
 # zsh
 ln -f zprofile ~/.zprofile
