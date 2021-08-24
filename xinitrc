@@ -1,6 +1,6 @@
 #!/bin/sh
 
 [ -f ~/.xprofile ] && . ~/.xprofile
-[ -f ~/.Xresources ] && xrdb -merge -I$HOME ~/.Xresources
+[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 
 ibus-daemon -drx && exec dwm

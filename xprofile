@@ -1,12 +1,13 @@
 #!/bin/sh
 
-# ibus
-export GTK_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
-export QT_IM_MODULE=ibus
-
 # hidpi
 export QT_AUTO_SCREEN_SCALE_FACTOR=1
 
-# auto-repeat
+# ibus
+export QT_IM_MODULE=ibus
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+
+# xset
+xset s off -dpms
 xset r rate 250 30
