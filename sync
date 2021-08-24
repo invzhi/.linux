@@ -10,6 +10,9 @@ ln -f Xresources ~/.Xresources
 # zsh
 ln -f zprofile ~/.zprofile
 
+# tmux
+ln -f tmux.conf ~/.tmux.conf
+
 # git
 ln -f gitconfig ~/.gitconfig
 
@@ -22,3 +25,6 @@ ln -f config/nvim.vim ~/.config/nvim/init.vim
 # pacman pkglist hook
 sudo ln -f etc/pacman/pkglist.hook /etc/pacman.d/hooks/pkglist.hook
 sudo ln -f /etc/pacman.d/pkglist etc/pacman/pkglist
+
+# sysctl
+sudo ln -f /etc/sysctl.d/swappiness.conf etc/sysctl.d/swappiness.conf
