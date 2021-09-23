@@ -10,6 +10,9 @@ ln -f Xresources ~/.Xresources
 # zsh
 ln -f zprofile ~/.zprofile
 
+# alacritty
+ln -f config/alacritty.yml ~/.config/alacritty/alacritty.yml
+
 # tmux
 ln -f tmux.conf ~/.tmux.conf
 
@@ -28,3 +31,6 @@ sudo ln -f /etc/pacman.d/pkglist etc/pacman/pkglist
 
 # sysctl
 sudo ln -f /etc/sysctl.d/swappiness.conf etc/sysctl.d/swappiness.conf
+
+# modprobe
+sudo ln -f /etc/modprobe.d/blacklist.conf etc/modprobe.d/blacklist.conf
