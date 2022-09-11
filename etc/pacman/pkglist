@@ -19,6 +19,7 @@ fd
 flashrom
 gcc
 git
+git-delta
 gnu-netcat
 go
 grub
@@ -26,6 +27,7 @@ helm
 htop
 ibus
 ibus-rime
+ifplugd
 imagemagick
 intel-ucode
 iotop
