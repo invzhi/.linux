@@ -1,0 +1,4 @@
+#!/bin/sh
+
+ExecUpPost="chronyc online"
+ExecDownPre="chronyc offline"
