@@ -38,6 +38,3 @@ sudo ln -f /etc/modprobe.d/blacklist.conf etc/modprobe.d/blacklist.conf
 
 # logind
 sudo ln -f /etc/systemd/logind.conf.d/no-suspend.conf etc/systemd/logind.conf.d/
-
-# netctl
-sudo ln -f /etc/netctl/hooks/chrony etc/netctl/hooks/chrony
