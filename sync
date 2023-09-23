@@ -2,39 +2,43 @@
 
 set -xe
 
-# x
-ln -f ~/.xinitrc xinitrc
-ln -f ~/.xprofile xprofile
-ln -f ~/.Xresources Xresources
-
 # zsh
-ln -f ~/.zprofile zprofile
-ln -f ~/.oh-my-zsh/custom/themes/robbyrussell.zsh-theme oh-my-zsh/custom/themes
+ln -sf $PWD/zprofile ~/.zprofile
+ln -sf $PWD/oh-my-zsh/custom/themes/robbyrussell.zsh-theme ~/.oh-my-zsh/custom/themes/robbyrussell.zsh-theme
 
-# alacritty
-ln -f ~/.config/alacritty/alacritty.yml config/alacritty.yml
+# x
+ln -sf $PWD/xinitrc ~/.xinitrc
+ln -sf $PWD/xprofile ~/.xprofile
+ln -sf $PWD/Xresources ~/.Xresources
 
 # tmux
-ln -f ~/.tmux.conf tmux.conf
+ln -sf $PWD/tmux.conf ~/.tmux.conf
 
 # git
-ln -f ~/.gitconfig gitconfig
-
-# ibus-rime
-ln -f ~/.config/ibus/rime/default.custom.yaml config/rime.yaml 
+ln -sf $PWD/gitconfig ~/.gitconfig
 
 # neovim
-ln -f ~/.config/nvim/init.vim config/nvim.vim
+mkdir -p ~/.config/nvim
+ln -sf $PWD/config/nvim.vim ~/.config/nvim/init.vim
 
-# pacman pkglist hook
-sudo ln -f /etc/pacman.d/hooks/pkglist.hook etc/pacman/pkglist.hook
-sudo ln -f /etc/pacman.d/pkglist etc/pacman/pkglist
+# alacritty
+mkdir -p ~/.config/alacritty
+ln -sf $PWD/config/alacritty.yml ~/.config/alacritty/alacritty.yml
 
-# sysctl
-sudo ln -f /etc/sysctl.d/swappiness.conf etc/sysctl.d/swappiness.conf
+# ibus-rime
+mkdir -p ~/.config/ibus/rime
+ln -sf $PWD/config/rime.yaml  ~/.config/ibus/rime/default.custom.yaml
 
 # modprobe
-sudo ln -f /etc/modprobe.d/blacklist.conf etc/modprobe.d/blacklist.conf
+sudo ln -sf $PWD/etc/modprobe.d/blacklist.conf /etc/modprobe.d/blacklist.conf
+
+# sysctl
+sudo ln -sf $PWD/etc/sysctl.d/swappiness.conf /etc/sysctl.d/swappiness.conf
 
 # logind
-sudo ln -f /etc/systemd/logind.conf.d/no-suspend.conf etc/systemd/logind.conf.d/
+sudo mkdir -p /etc/systemd/logind.conf.d
+sudo ln -sf $PWD/etc/systemd/logind.conf.d/no-syspend.conf /etc/systemd/logind.conf.d/no-suspend.conf
+
+# pacman pkglist hook
+sudo mkdir -p /etc/pacman.d/hooks
+sudo ln -sf $PWD/etc/pacman/pkglist.hook /etc/pacman.d/hooks/pkglist.hook
