@@ -8,4 +8,4 @@ Target = *
 Description = Updating pkglist...
 Depends = coreutils
 When = PostTransaction
-Exec = /bin/sh -c "/usr/bin/pacman -Qqe > /etc/pacman.d/pkglist"
+Exec = /bin/sh -c "/usr/bin/pacman -Qqe > /home/invzhi/.linux/etc/pacman/pkglist"
