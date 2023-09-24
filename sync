@@ -37,7 +37,7 @@ sudo ln -sf $PWD/etc/sysctl.d/swappiness.conf /etc/sysctl.d/swappiness.conf
 
 # logind
 sudo mkdir -p /etc/systemd/logind.conf.d
-sudo ln -sf $PWD/etc/systemd/logind.conf.d/no-syspend.conf /etc/systemd/logind.conf.d/no-suspend.conf
+sudo ln -sf $PWD/etc/systemd/logind.conf.d/no-suspend.conf /etc/systemd/logind.conf.d/no-suspend.conf
 
 # pacman pkglist hook
 sudo mkdir -p /etc/pacman.d/hooks
