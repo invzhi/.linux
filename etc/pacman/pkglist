@@ -29,6 +29,7 @@ netdata
 openssh
 pacman-contrib
 sudo
+tailscale
 tcpdump
 tlp
 tmux
