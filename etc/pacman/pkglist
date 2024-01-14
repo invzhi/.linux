@@ -4,6 +4,8 @@ bind
 chrony
 dhcpcd
 docker
+docker-buildx
+docker-compose
 efibootmgr
 fd
 git
@@ -11,6 +13,7 @@ git-delta
 gnu-netcat
 grub
 htop
+intel-gpu-tools
 intel-ucode
 iotop
 jellyfin-bin
