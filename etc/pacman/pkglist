@@ -45,5 +45,6 @@ xf86-video-ati
 xf86-video-intel
 xorg-server
 xorg-xinit
+xorg-xset
 zip
 zsh
