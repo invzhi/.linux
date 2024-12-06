@@ -2,6 +2,7 @@ base
 bat
 bind
 chrony
+debugedit
 dhcpcd
 docker
 docker-buildx
@@ -20,6 +21,7 @@ jellyfin-bin
 jellyfin-server-bin
 jellyfin-web-bin
 kodi
+kubectl
 linux
 linux-firmware
 make
@@ -28,11 +30,12 @@ man-pages
 ncdu
 neofetch
 neovim
+netbird-bin
+netbird-bin-debug
 netdata
 openssh
 pacman-contrib
 sudo
-tailscale
 tcpdump
 tlp
 tmux
