@@ -1,3 +1,5 @@
+adobe-source-han-sans-cn-fonts
+adobe-source-han-serif-cn-fonts
 base
 bat
 bind
@@ -33,6 +35,8 @@ neovim
 netbird-bin
 netbird-bin-debug
 netdata
+noto-fonts
+noto-fonts-emoji
 openssh
 pacman-contrib
 sudo
@@ -42,6 +46,8 @@ tmux
 transmission-cli
 tree
 unzip
+uv
+wechat-bin
 which
 wpa_supplicant
 xf86-video-ati
