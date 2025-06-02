@@ -39,8 +39,10 @@ noto-fonts
 noto-fonts-emoji
 openssh
 pacman-contrib
+scrot
 sudo
 tcpdump
+tk
 tlp
 tmux
 transmission-cli
@@ -50,6 +52,7 @@ uv
 wechat-bin
 which
 wpa_supplicant
+xclip
 xf86-video-ati
 xf86-video-intel
 xorg-server

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 [ -f ~/.xprofile ] && . ~/.xprofile
-[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 
 # ibus-daemon -drx && exec dwm
-exec kodi-standalone
+exec /opt/wechat/wechat
+#exec kodi-standalone

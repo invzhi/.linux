@@ -9,7 +9,6 @@ ln -sf $PWD/oh-my-zsh/custom/themes/robbyrussell.zsh-theme ~/.oh-my-zsh/custom/t
 # x
 ln -sf $PWD/xinitrc ~/.xinitrc
 ln -sf $PWD/xprofile ~/.xprofile
-ln -sf $PWD/Xresources ~/.Xresources
 
 # tmux
 ln -sf $PWD/tmux.conf ~/.tmux.conf
