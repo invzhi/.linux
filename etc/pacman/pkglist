@@ -1,5 +1,6 @@
 adobe-source-han-sans-cn-fonts
 adobe-source-han-serif-cn-fonts
+android-tools
 base
 bat
 bind
@@ -26,7 +27,6 @@ jellyfin-web-bin
 kodi
 kubectl
 linux
-linux-firmware
 make
 man-db
 man-pages
