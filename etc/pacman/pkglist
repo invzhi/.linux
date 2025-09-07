@@ -21,12 +21,14 @@ htop
 intel-gpu-tools
 intel-ucode
 iotop
+iwd
 jellyfin-bin
 jellyfin-server-bin
 jellyfin-web-bin
 kodi
 kubectl
 linux
+linux-firmware
 make
 man-db
 man-pages
@@ -52,6 +54,7 @@ tree
 unzip
 uv
 which
+woeusb
 wpa_supplicant
 xf86-video-ati
 xf86-video-intel
