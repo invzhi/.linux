@@ -33,6 +33,7 @@ linux-firmware
 make
 man-db
 man-pages
+mesa-amber
 ncdu
 neofetch
 neovim
