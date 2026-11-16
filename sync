@@ -3,6 +3,7 @@
 set -xe
 
 # zsh
+ln -sf $PWD/zshrc ~/.zshrc
 ln -sf $PWD/zprofile ~/.zprofile
 ln -sf $PWD/oh-my-zsh/custom/themes/robbyrussell.zsh-theme ~/.oh-my-zsh/custom/themes/robbyrussell.zsh-theme
 
